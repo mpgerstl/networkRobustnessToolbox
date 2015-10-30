@@ -1,0 +1,42 @@
+<h1 id="networkrobustnesstoolbox">networkRobustnessToolbox</h1>
+<p>This toolbox contains tools needed to find the robustness of metabolic networks. I have written this toolbox during my PhD time.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p><a href="#Installation">Installation</a></p>
+<p><a href="#Examples">Examples</a></p>
+<p><a href="#calculate%20robustness">Calculate robustness</a></p>
+<ul>
+<li>failureProbabilityByMcs</li>
+<li>recalcFailureProbability</li>
+<li>robustnessByEfms</li>
+<li>overallRobustnessByEfms</li>
+</ul>
+<p><a href="#additional%20tools">Additional tools</a></p>
+<ul>
+<li>convertFailureProbOut2csv.pl</li>
+</ul>
+<h2 id="installation"><a name="Installation"></a>Installation</h2>
+<p>C-programs can be compiled by</p>
+<pre><code>cd robustToolbox
+make</code></pre>
+<p>Perl scripts are located in folder scripts and can be executed without compilation.</p>
+<h2 id="examples"><a name="Examples"></a>Examples</h2>
+<p>Examples for all programs and scripts are located in the examples folder.</p>
+<h2 id="calculate-robustness"><a name="calculate robustness"></a>Calculate robustness</h2>
+<p>This section describes tools that calculates the robustness of metabolic networks. Help for all C tools is called if the program is started without any parameter.</p>
+<p><strong>failureProbabilityByMcs</strong></p>
+<pre><code>This C tool calculates the failure probability by a given minimal cutsets. The
+provided file needs to be in following format.</code></pre>
+<p><strong>recalcFailureProbability</strong></p>
+<pre><code>This C tool recalculates the failure probability with a different lambda value
+using a previously calculated result by failureProbabilityByMcs.</code></pre>
+<p><strong>robustnessByEfms</strong></p>
+<pre><code>This C tool calculates the robustness by a given set of EFMs, as described by
+Behre et al., 2008</code></pre>
+<p><strong>robustnessByEfms</strong></p>
+<pre><code>This C tool calculates the the overall robustness by a given set of EFMs, as
+described by Behre et al., 2008</code></pre>
+<h2 id="additional-tools"><a name="additional tools"></a>Additional tools</h2>
+<p>This section describes further tools needed for calculation of robustness</p>
+<p><strong>convertFailureProbOut2csv.pl</strong></p>
+<pre><code>This perl script converts the formatted output of failureProbabilityByMcs and
+recalcFailureProbability to csv format</code></pre>
