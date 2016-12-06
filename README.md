@@ -2,6 +2,12 @@
 This toolbox contains tools used for defining the robustness of metabolic
 networks.
 
+If you use any software of this toolbox please cite: 
+
+> Matthias P. Gerstl, Steffen Klamt, Christian Jungreuthmayer, and Jürgen Zanghellini.
+> Exact quantification of cellular robustness in genome-scale metabolic networks. 
+> Bioinformatics (In Press)
+
 ## NOTE
 This software was developed and tested only with Linux. However it is pure C
 code.  So it should also work with other operating system.
@@ -29,11 +35,6 @@ sh clean_example_files.sh
    
 * Every tool can be called without any argument to show help page
 * A short documentation can be found in the folder doc
-* If you use any software of this toolbox please cite: 
-
-> Matthias P. Gerstl, Steffen Klamt, Christian Jungreuthmayer, and Jürgen Zanghellini.
-> Exact quantification of cellular robustness in genome-scale metabolic networks. 
-> Bioinformatics (In Press)
 
 ## LICENSE
 This toolbox is published under GNU Public License V3. The license information
